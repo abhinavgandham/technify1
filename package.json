@@ -1,10 +1,9 @@
 {
   "name": "technify1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -18,8 +17,7 @@
   },
   "homepage": "https://github.com/abhinavgandham/technify1#readme",
   "devDependencies": {
-    "cssnano": "^5.0.14",
-    "parcel": "^2.0.1",
-    "postcss": "^8.4.5"
+    "cssnano": "^4.1.11",
+    "parcel": "latest"
   }
 }
